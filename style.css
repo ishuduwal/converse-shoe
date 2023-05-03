@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f7f6f5;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}  
+.converse-container{
+    display: flex;
+    gap:5rem;
+}
+.converse{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 10px 20px;
+    display: grid;
+    place-items: center;
+}
+#converse-jutta{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+h3{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    height: 2rem;
+    width: 100%;
+    background-color: #00b67a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.quantity{
+    margin-top: 0.5rem;
+}
+.text-control-btn{
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+.btn{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    border: none;
+    background-color:#cccccc;
+}
+.size{
+    text-align: center;
+    margin-top: 0.5rem;
+} 
+.size >p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.size > select{
+    background-color: #cccccc;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.add-to-cart{
+    background-color: #00b67a;
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000;
+    transition: 0.5s;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    background-color: #f7f6f5;
+    border: 1px solid #00b67a;
+}
+@media (max-width:1360px) {
+    .converse-container{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+}
+@media (max-width:650px) {
+    .converse-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vina+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/68ca6c3423.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Converse Shoe Store</h2>
+    <div class="converse-container">
+        <div class="converse one">
+            <img src="bandana.png" id="converse-jutta">
+            <div class="shoe information">
+                <h3>Bandana</h3>
+                <div class="price">110$</div>
+                <div class="quantity">
+                    <button id="plus-one" class="btn plus"><i class="fa-solid fa-plus"></i></button>
+                    <input id="number-one" type="number" class="text-control-btn" value="1" min="1">
+                    <!--min keeps one as quantity all the time-->
+                    <button id="minus-one" class="btn minus"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="size">
+                    <p>size</p>
+                    <select>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                    </select>
+                </div>
+                <div class="total">
+                    <h4>Total:</h4>
+                    <h4>$<span id="total-one">100</span></h4>
+                </div>
+                <button id="add-to-cart" class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="converse two">
+            <img src="black.png" id="converse-jutta">
+            <div class="shoe information">
+                <h3>Black</h3>
+                <div class="price">90$</div>
+                <div class="quantity">
+                    <button id="plus-two" class="btn plus"><i class="fa-solid fa-plus"></i></button>
+                    <input id="number-two" type="number" class="text-control-btn" value="1" min="1">
+                    <button id="minus-two" class="btn minus"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="size">
+                    <p>size</p>
+                    <select>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                    </select>
+                </div>
+                <div class="total">
+                    <h4>Total:</h4>
+                    <h4>$<span id="total-two">90</span></h4>
+                </div>
+                <button id="add-to-cart" class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="converse three">
+            <img src="blue.png" id="converse-jutta">
+            <div class="shoe information">
+                <h3>Green Blue</h3>
+                <div class="price">100$</div>
+                <div class="quantity">
+                    <button id="plus-three" class="btn plus"><i class="fa-solid fa-plus"></i></button>
+                    <input id="number-three" type="number" class="text-control-btn" value="1" min="1">
+                    <button id="minus-three" class="btn minus"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="size">
+                    <p>size</p>
+                    <select>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                    </select>
+                </div>
+                <div class="total">
+                    <h4>Total:</h4>
+                    <h4>$<span id="total-three">100</span></h4>
+                </div>
+                <button id="add-to-cart" class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="converse four">
+            <img src="spider.png" id="converse-jutta">
+            <div class="shoe information">
+                <h3>Spider</h3>
+                <div class="price">150$</div>
+                <div class="quantity">
+                    <button id="plus-four" class="btn plus"><i class="fa-solid fa-plus"></i></button>
+                    <input id="number-four" type="number" class="text-control-btn" value="1" min="1">
+                    <button id="minus-four" class="btn minus"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="size">
+                    <p>size</p>
+                    <select>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                    </select>
+                </div>
+                <div class="total">
+                    <h4>Total:</h4>
+                    <h4>$<span id="total-four">150</span></h4>
+                </div>
+                <button id="add-to-cart" class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
